@@ -1,2 +1,8 @@
 # gnibbanbat
-siufvsdb
+Network Security Project
+
+Contributors:
+Poornesh Adhithya
+Girish Balaji
+Kiranaadharsh S
+Vishwa Senthilkumar
